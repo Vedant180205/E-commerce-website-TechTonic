@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Product Information</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 100%;
+            margin: 0 auto;
+            padding: 10px;
+            display: flex;
+            flex-direction: row;
+        }
+        h1,
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+        .product-image img {
+            height: 40em;
+            border-radius: 8px;
+            position: fixed;
+        }
+        .product-info {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+            margin-top: 15px;
+        }
+        .product-info h2 {
+            margin-bottom: 10px;
+            font-size: 1.5em;
+            color: #007BFF;
+        }
+        .price {
+            font-size: 1.2em;
+            color: #28a745;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .description {
+            margin-top: 15px;
+            line-height: 1.6;
+            font-size: 1em;
+            color: #555;
+        }
+        .features ul {
+            list-style-type: none;
+            padding: 0;
+            margin-top: 10px;
+        }
+        .features li {
+            background-color: #f8f9fa;
+            margin-bottom: 8px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .buy-button {
+            display: block;
+            width: 100%;
+            padding: 15px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.2em;
+            text-align: center;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+        .buy-button:hover {
+            background-color: #0056b3;
+        }
+        .reviews {
+            margin-top: 20px;
+        }
+        .review {
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 15px;
+        }
+        .review h3 {
+            margin: 0;
+            font-size: 1.2em;
+            color: #007BFF;
+        }
+        .review p {
+            font-size: 1em;
+            color: #555;
+        }
+        .rating {
+            color: #ffcc00;
+            font-size: 1.2em;
+        }
+        .info {
+            padding-left: 42em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Product Image -->
+        <div class="product-image">
+            <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQWKyH7Sp8kDjbUw-9E0iROYO2Jk0-PO7Hs16Af6r9Wlb5L3LSwxJ4h50G4--HWwfA19Ch28wkq2mlTSVQnoY5POVbybI4I9QIgYUlgeexjxN7vCOoQ5JPt" alt="Product 1">
+        </div>
+        <!-- Product Information -->
+        <div class="info">
+            <div class="product-info">
+                <h2>HP All-in-One PC Intel Processor N200 21.45-inch FHD 8GB DDR5</h2>
+                <div class="price">Rs 31,990/-</div>
+                <p class="description">
+                    The HP All-in-One PC with Intel Processor N200 features a sleek 21.45-inch Full HD display, delivering crisp visuals for work and entertainment. It comes with 8GB DDR5 RAM, ensuring smooth multitasking and faster performance. The all-in-one design saves space and reduces clutter, making it ideal for modern setups. Perfect for everyday computing, it combines style, functionality, and efficiency.
+.
+                </p>
+                <!-- Features List -->
+                <div class="features">
+                    <h3>Features:</h3>
+                    <ul>
+  <li>Processor: Intel Processor N200 (Quad-Core)</li>
+  <li>Display: 21.45-inch Full HD (1920 x 1080) anti-glare screen</li>
+  <li>RAM: 8GB DDR5 (upgradable)</li>
+  <li>Storage: 256GB SSD (or optional HDD configurations)</li>
+  <li>Graphics: Integrated Intel UHD Graphics</li>
+  <li>Operating System: Windows 11 Home</li>
+  <li>Connectivity: Wi-Fi 6 and Bluetooth 5.2</li>
+  <li>Ports: USB 3.2, USB Type-C, HDMI, headphone/microphone combo</li>
+  <li>Audio: Dual speakers with HD audio</li>
+  <li>Webcam: Integrated 720p HD with privacy shutter</li>
+  <li>Design: Slim, all-in-one design with adjustable tilt</li>
+  <li>Power Supply: Energy-efficient with a 65W power adapter</li>
+  <li>Accessories: Comes with a wired keyboard and mouse</li>
+</ul>
+                </div>
+                <!-- Buy Button -->
+                <button class="buy-button" onclick="alert(' The product has been added to your wishlist')">Buy Now</button>
+            </div>
+            <!-- Reviews Section -->
+            <div class="reviews">
+                <h2>Customer Reviews</h2>
+                <!-- Review 1 -->
+                <div class="review">
+                    <h3>John Doe</h3>
+                    <div class="rating">?????</div>
+                    <p>Excellent phone! The camera quality is amazing and the battery lasts all day. Highly recommend!
+                    </p>
+                </div>
+                <!-- Review 2 -->
+                <div class="review">
+                    <h3>Jane Smith</h3>
+                    <div class="rating">????</div>
+                    <p>Great performance and design, but I wish the screen was a bit larger. Overall, a fantastic phone!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
