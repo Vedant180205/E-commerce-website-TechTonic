@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OnePlus Nord CE 4</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            width: 100%;
+            margin: 0 auto;
+            padding: 10px;
+            display: flex;
+            flex-direction: row;
+        }
+
+        h1,
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        .product-image img {
+            height: 41em;
+            border-radius: 8px;
+            position: fixed;
+            top: 2em;
+        }
+
+        .product-info {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+            margin-top: 15px;
+        }
+
+        .product-info h2 {
+            margin-bottom: 10px;
+            font-size: 1.5em;
+            color: #007BFF;
+        }
+
+        .price {
+            font-size: 1.2em;
+            color: #28a745;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .description {
+            margin-top: 15px;
+            line-height: 1.6;
+            font-size: 1em;
+            color: #555;
+        }
+
+        .features ul {
+            list-style-type: none;
+            padding: 0;
+            margin-top: 10px;
+        }
+
+        .features li {
+            background-color: #f8f9fa;
+            margin-bottom: 8px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .buy-button {
+            display: block;
+            width: 100%;
+            padding: 15px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.2em;
+            text-align: center;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+
+        .buy-button:hover {
+            background-color: #0056b3;
+        }
+
+        .reviews {
+            margin-top: 20px;
+        }
+
+        .review {
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 15px;
+        }
+
+        .review h3 {
+            margin: 0;
+            font-size: 1.2em;
+            color: #007BFF;
+        }
+
+        .review p {
+            font-size: 1em;
+            color: #555;
+        }
+
+        .info {
+            padding-left: 42em;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="product-image">
+            <img src="https://m.media-amazon.com/images/I/61g1pqSjAhL.jpg">
+        </div>
+
+        <div class="info">
+            <div class="product-info">
+                <h2>OnePlus Nord CE 4</h2>
+                <div class="price">Rs 24,999/-</div>
+                <p class="description">
+                    The OnePlus Nord CE 4 offers smooth performance with the Snapdragon 7 Gen 3, 120Hz AMOLED display, super-fast 100W charging and OxygenOS refinement. It brings flagship-like experience at a mid-range price, making it ideal for users who want speed, premium feel and a great display without spending too high.
+                </p>
+
+                <div class="features">
+                    <h3>Features:</h3>
+                    <ul>
+                        <li><strong>Processor:</strong> Snapdragon 7 Gen 3</li>
+                        <li><strong>Display:</strong> 6.7-inch AMOLED, FHD+, 120Hz</li>
+                        <li><strong>Camera:</strong> 50MP OIS main + 8MP ultrawide</li>
+                        <li><strong>Front Camera:</strong> 16MP</li>
+                        <li><strong>RAM:</strong> 8GB</li>
+                        <li><strong>Storage:</strong> 128GB / 256GB</li>
+                        <li><strong>Battery:</strong> 5500mAh</li>
+                        <li><strong>Charging:</strong> 100W SUPERVOOC</li>
+                        <li><strong>OS:</strong> OxygenOS based on Android 14</li>
+                        <li><strong>5G Support:</strong> Yes</li>
+                    </ul>
+                </div>
+
+                <button class="buy-button" onclick="alert('Taking you to the payment page')">Buy Now</button>
+                <button class="buy-button" onclick="alert('Added to Wishlist')">Add to wish list</button>
+            </div>
+
+            <div class="reviews">
+                <h2>Customer Reviews</h2>
+                <div class="review">
+                    <h3>Product Review</h3>
+                    <p>
+                        Excellent display, very fast charging and snappy performance. Camera is good for the price and battery lasts easily a full day. Perfect balanced mid-range phone.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
